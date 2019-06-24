@@ -62,6 +62,12 @@
     <Compile Include="FormModify.Designer.cs">
       <DependentUpon>FormModify.cs</DependentUpon>
     </Compile>
+    <Compile Include="FromAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromAbout.Designer.cs">
+      <DependentUpon>FromAbout.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -72,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormModify.resx">
       <DependentUpon>FormModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromAbout.resx">
+      <DependentUpon>FromAbout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon\mirim.ico" />
+    <Content Include="img\56726458_2410130892548078_6162053394195283968_n.jpg" />
     <Content Include="img\add.PNG" />
     <Content Include="img\demo.PNG" />
     <Content Include="img\modify.PNG" />
